@@ -1,0 +1,133 @@
+
+/* All rights reserved by Anisur Rahman */
+
+
+
+body {
+    text-align: center;
+    background: #033264;
+}
+
+#level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 60px;
+    margin: 4%;
+    margin-bottom: 2%;
+    text-transform: capitalize;
+    color: #ecdb8c;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn {
+    height: 180px;
+    width: 180px;
+    border-radius: 20%;
+    background: red;
+    margin: 25px;
+    border: 10px solid #010f18;
+}
+.red {
+    background: red;
+}
+.green {
+    background: green;
+}
+.blue {
+    background: rgb(0, 26, 255);
+}
+.yellow {
+    background: yellow;
+}
+
+.pressed {
+    box-shadow: 0 0 25px whitesmoke;
+    background-color: rgb(119, 114, 114);
+}
+.game-over {
+    background: red;
+    opacity: 0.7;
+}
+
+footer {
+    color: #ecdb8c;
+    padding: 10px;
+    display: inline;
+    font-size: 25px;
+}
+footer p {
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+/* =============responsive============== */
+
+/* ========= responsive for extra small device =============== */
+
+@media (min-width : 320px) and (max-width : 575px) {
+    #level-title {
+        font-size: 30px;
+        margin: 50px 0;
+    }
+    .btn {
+        height: 90px;
+        width: 90px;
+        margin: 5px;
+    }
+    footer {
+        padding-top: 50px;
+        font-size: 20px;
+    }
+}
+
+/* ========== responsive for small device ======= */
+@media (min-width : 576px) and (max-width : 767px) {
+    body {
+        overflow: hidden;
+    }
+
+    #level-title {
+        font-size: 50px;
+        margin: 70px 0;
+    }
+    .btn {
+        height: 120px;
+        width: 120px;
+        margin: 10px;
+    }
+    footer {
+        padding-top: 50px;
+        font-size: 20px;
+    }
+}
+
+/* ========== responsive for medium device ======= */
+@media (min-width : 768px) and (max-width : 991px) {
+    body {
+        height: 768px;
+        overflow: hidden;
+    }
+
+    #level-title {
+        font-size: 50px;
+        margin: 70px 0;
+    }
+    .btn {
+        height: 150px;
+        width: 150px;
+        margin: 10px;
+    }
+    footer {
+        padding-top: 60px;
+        font-size: 20px;
+    }
+}
